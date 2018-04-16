@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:800|Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+	/* General Styles */ 
+
+body {
+	background: #e0e0e0;
+	color: #555;
+	webkit-font-smoothing: antialiased;
+	webkit-overflow-scrolling: touch;
+	height: 2000px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway";
+	color: #333 !important; 
+	text-shadow: none !important;
+	text-transform: uppercase;
+}
+
+a:hover, a:focus {
+	color: #fff !important;
+	text-decoration: none;
+	outline: 0;
+}
+
+::selection {
+    color: #000;
+    background: #ccc;
+}
+
+hr {
+	display: block;
+	border: 1px solid #ccc;
+	margin:  10px 0;
+	padding: 0;
+}
+
+	/* NAVBAR */ 
+
+.navbar {
+	font-weight: 800;
+	background: #120e0a !important; 
+	border-color: #2d2d2d;	
+	text-transform: uppercase;
+	position: sticky !important;
+	width: 100%;
+}
+
+.navbar  li  a {
+	font-weight: 700 !important;
+}
+
+.active {
+	background: #3d4e4e;
+}
+
+.navbar .navbar-brand {
+	color: #999;
+}
+
+	/* Header */ 
+
+#headerwrap {
+	background: url('../img/888.jpg') no-repeat center top;
+	height: 350px !important;
+	background-size: cover;
+	background-position: center bottom;
+	width: 100%;
+	-webkit-background-size: cover;
+	margin-bottom: 70px;
+}
+
+.headerwrap1 {
+	background: url('../img/74.jpg') no-repeat center !important;
+	width: 100%;
+	height: 100%;
+}
+
+#headerwrap h1 {
+	color: #fff !important;
+}
+
+#headerwrap h2 {
+	font-family: "Lato" !important;
+	color: #f7f7f7 !important;
+	line-height: 5.9vw;
+}
+
+.card h4 {
+	font-family: "Raleway" !important;
+	color: #212121 !important;	
+	letter-spacing: 1vw;
+	font-size: 1.2vw;
+	font-weight: 500 !important;
+}
+
+.section-1 {
+	margin-top: 7vw;
+}
+.card-title {
+	margin: 0;
+}
+.card {
+	border: 0;
+	background: #fff;
+	transition: 0.3s linear;
+}
+ .card-text {
+	font-family: "Lato" !important;
+	color: #000;
+	letter-spacing: 0.05vw;
+	font-size: 1.2vw;
+}
+
+.card:hover {
+	background: #96b5b4;
+}
+
+.hiddenn {
+	display: none;
+}
+
+.description {
+	font-size: 1.5vw;
+	line-height: 28px;
+	font-family: 'Alegreya', serif;
+}
+
+.h2-web {
+	font-family: 'Alegreya', serif;
+	font-weight: 700; 
+	font-size: 3vw;
+}
+
+.row-web {
+	background: #ccc;
+	font-size: 1.2vw;
+	font-family: 'Roboto', sans-serif;
+	color: #333 !important;
+	letter-spacing: 1px;
+}
+
+.dsada {
+	height: 300px;
+}
